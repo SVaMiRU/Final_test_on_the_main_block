@@ -16,3 +16,7 @@ for i in range(n):
 
 # Вызов функции filter_short_strings для фильтрации строк
 result_array = filter_short_strings(input_array)
+
+# Вывод результата
+print("Исходный массив строк:", input_array)
+print("Новый массив строк (длина <= 3):", result_array)
