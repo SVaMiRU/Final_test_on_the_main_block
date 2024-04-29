@@ -13,3 +13,6 @@ n = int(input("Введите количество строк: "))
 for i in range(n):
     string = input("Введите строку: ")
     input_array.append(string)
+
+# Вызов функции filter_short_strings для фильтрации строк
+result_array = filter_short_strings(input_array)
